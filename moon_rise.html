@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moon_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+      <script src="moon_time.js"></script>
+    <script src="earth_time.js"></script>
+    <link rel="shortcut icon" href="moon-96.png" type="image/x-icon">
+    <link rel="stylesheet" href="moon_style.css" />
+
+    <title>Moon</title>
+</head>
+
+<body>
+    
+    <div id="degrade">
+
+        <div id="titre">
+            <h1>FULL MOON</h1>
+        </div>
+
+        <section>
+    
+            <div id="earth">
+                <h2 id="time_on_earth">EARTH</h2>
+                <h2 class="clock"></h2>
+                <h2 id="date_earth">DATE ON EARTH</h2>
+                <h2 id="earth_location">LOCATION</h2>
+                <h2 id="earth_latitude">LATITUDE</h2>
+                <h2 id="earth_longitude">LONGITUDE</h2>
+                <h3 id="solar_noon">SOLAR NOON</h3>
+                <h3 id="sun_altitude">SUN ALTITUDE</h3>
+                <h3 id="sun_azimuth">SUN AZIMUTH</h3>
+                <h3 id="sun_distance">SUN DISTANCE</h3>
+                <h3 id="sunrise">SUNRISE</h3>
+                <h3 id="sunset">SUNSET</h3>
+            </div>
+
+    
+            <div id="moon">
+                <h2 id="time_on_moon">MOON</h2>
+                <h2 class="moonClock"></h2>
+                <h3 id="moon_altitude">MOON ALTITUDE</h3>
+                <h3 id="moon_azimuth">MOON AZIMUTH</h3>
+                <h3 id="moon_distance">MOON DISTANCE</h3>
+                <h3 id="moonrise">MOONRISE</h3>
+                <h3 id="moonset">MOONSET</h3>
+                <h3 id="poetry"></h3>
+
+                <button  onclick="randomPoetry()">MOON POETRY</button>
+                <p id="texte_lune" ></p>
+
+            </div>
+
+        </section>
+
+        <div align="center"> 
+            <audio src="son_lune.mp3" controls loop ></audio>
+        </div>
+
+    </div>
+  
+  <script src="moon_rise_script.js"></script>
+</body>
+</html>
