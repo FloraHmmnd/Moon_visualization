@@ -12,9 +12,9 @@ Content :
 
 earth_time.js -> time on earth
 
-full_moon_black.jpg -> background image
+moon_black.jpg -> background image
 
-full_moon_white.jpg -> background image
+moon_white.jpg -> background image
 
 moon-96.png -> favicon
 
